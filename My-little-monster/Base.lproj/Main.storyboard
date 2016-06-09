@@ -105,16 +105,16 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="IZt-fb-8iu"/>
                                 <exclude reference="8cS-CD-7QN"/>
+                                <exclude reference="IZt-fb-8iu"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
-                                <include reference="IZt-fb-8iu"/>
                                 <include reference="8cS-CD-7QN"/>
                                 <exclude reference="n5U-EF-WQt"/>
                                 <exclude reference="q0X-O4-vlH"/>
+                                <include reference="IZt-fb-8iu"/>
                             </mask>
                         </variation>
                     </view>
