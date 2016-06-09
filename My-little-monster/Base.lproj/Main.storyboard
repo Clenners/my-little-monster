@@ -63,7 +63,7 @@
                                     <constraint firstAttribute="height" constant="50" id="4Fk-8A-3im"/>
                                 </constraints>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="CER-s7-Gob">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="CER-s7-Gob" customClass="Monster" customModule="My_little_monster" customModuleProvider="target">
                                 <rect key="frame" x="-8" y="169" width="565" height="389"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="565" id="FyD-9m-CaE"/>
