@@ -22,15 +22,15 @@ class ViewController: UIViewController {
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ViewController.itemDroppedOnCharacter(_:)), name: "onTargetDropped", object: nil)
         
-        func itemDroppedOnCharacter(notif: AnyObject) {
-            
-            print("Item dropped on Character")
-            
-        }
+        
         
     }
 
-
+    func itemDroppedOnCharacter(notif: AnyObject) {
+        
+        print("Item dropped on Character")
+        
+    }
 
 }
 
