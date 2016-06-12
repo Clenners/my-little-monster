@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ViewController.itemDroppedOnCharacter(_:)), name: "onTargetDropped", object: nil)
         
+        startTimer()
     }
 
     func itemDroppedOnCharacter(notif: AnyObject) {
@@ -80,6 +81,7 @@ class ViewController: UIViewController {
     
     func gameOver() {
         timer.invalidate()
+        monsterImg.playDeathAnimation()
     }
 
 }
