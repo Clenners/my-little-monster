@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     let MAX_PENALTIES = 3
     
     var penalties = 0
+    var timer: NSTimer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +41,18 @@ class ViewController: UIViewController {
     func itemDroppedOnCharacter(notif: AnyObject) {
         
         print("Item dropped on Character")
+        
+    }
+    
+    func startTimer() {
+        if timer != nil {
+            timer.invalidate()
+        }
+        
+        timer = NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: #selector(ViewController.changeGameState), userInfo: nil, repeats: true)
+    }
+    
+    func changeGameState() {
         
     }
 
