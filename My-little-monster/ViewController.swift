@@ -74,8 +74,12 @@ class ViewController: UIViewController {
         }
         
         if penalties >= MAX_PENALTIES {
-            timer.invalidate()
+            gameOver()
         }
+    }
+    
+    func gameOver() {
+        timer.invalidate()
     }
 
 }
