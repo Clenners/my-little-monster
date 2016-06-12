@@ -122,6 +122,9 @@
                         <outlet property="foodImg" destination="3DK-q6-K1L" id="kPA-AV-9pK"/>
                         <outlet property="heartImg" destination="EF5-Hc-F9q" id="hDt-qt-eay"/>
                         <outlet property="monsterImg" destination="CER-s7-Gob" id="3hc-NB-P7P"/>
+                        <outlet property="penalty1Img" destination="CER-s7-Gob" id="ryW-GB-IzX"/>
+                        <outlet property="penalty2Img" destination="CER-s7-Gob" id="h9L-hN-yZx"/>
+                        <outlet property="penalty3Img" destination="CER-s7-Gob" id="IX5-an-Z33"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

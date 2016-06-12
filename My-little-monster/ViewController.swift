@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var monsterImg: Monster!
     @IBOutlet weak var foodImg: DragImg!
     @IBOutlet weak var heartImg: DragImg!
+    @IBOutlet weak var penalty1Img: UIImageView!
+    @IBOutlet weak var penalty2Img: UIImageView!
+    @IBOutlet weak var penalty3Img: UIImageView!
+    
+    let DIM_ALPHA: CGFloat = 0.2
+    let OPAQUE: CGFloat = 1.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
