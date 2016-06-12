@@ -54,6 +54,28 @@ class ViewController: UIViewController {
     
     func changeGameState() {
         
+        penalties += 1
+        
+        if penalties == 1 {
+            penalty1Img.alpha = OPAQUE
+            penalty2Img.alpha = DIM_ALPHA
+        }
+        else if penalties == 2 {
+            penalty2Img.alpha = OPAQUE
+            penalty3Img.alpha = DIM_ALPHA
+        }
+        else if penalties >= 3 {
+            penalty3Img.alpha = OPAQUE
+        }
+        else {
+            penalty1Img.alpha = DIM_ALPHA
+            penalty2Img.alpha = DIM_ALPHA
+            penalty3Img.alpha = DIM_ALPHA
+        }
+        
+        if penalties >= MAX_PENALTIES {
+            timer.invalidate()
+        }
     }
 
 }
